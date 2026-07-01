@@ -7,8 +7,10 @@ print("Elige una opción:\n1. Solicitar Semana de Vacaciones.\n2. Partes por enf
 input(mensaje)
 
 if mensaje == "1":
-    enviar("Has elegido información de productos. ¿Quieres ver catálogo o precios?")
+    enviar("Has elegido Solicitar semana de vacaciones ¿Qué semana deseas solicitar? (ingresa día/mes/año del inicio de la semana)")
 elif mensaje == "2":
-    enviar("Soporte técnico: ¿Tu problema es con hardware o software?")
+    enviar("¿Tienes la imagen o documento médico a mano?")
+elif mensaje == "3":
+    enviar("Un representante se comunicará contigo a la brevedad")
 else:
-    enviar("Por favor, elige una opción válida: 1 o 2")
+    enviar("Por favor, elige una opción válida: 1, 2 ó 3")
